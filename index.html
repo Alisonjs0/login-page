@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <section id="pagina">
+        <div id="loginPage" class="login">
+            <h1>MEMBER LOGIN</h1>
+            <label for="userlogin">Username</label><br>
+            <input type="text" name="user" id="userlogin" class="input"><br>
+            <label for="passwordlogin">Password</label><br>
+            <input type="text" name="password" id="passwordlogin" class="input"><br>
+            <input type="checkbox" name="remenber" id="remenberlogin">
+            <label for="remenberlogin">Remenber me</label>
+            <a href="#">Forgot Password?</a><br>
+            <input type="button" value="Login" class="button" onclick="login()">
+        </div>
+        <div id="registerPage" class="registrar">
+            <h1>REGISTRATION</h1>
+            <label for="fullname">Full Name</label><br>
+            <input type="text" name="fullname" id="fullname" class="input"><br>
+            <label for="user">Username</label><br>
+            <input type="text" name="user" id="user" class="input"><br>
+            <label for="password">Password</label><br>
+            <input type="password" name="password" id="password" class="input"><br>
+            <label for="password2">Confirm Password</label><br>
+            <input type="password" name="password" id="password2" class="input"><br>
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email" class="input"><br>
+            <input type="checkbox" name="remenber" id="remenber">
+            <label for="remenber">Remenber me</label><br>
+            <input type="button" value="Register" class="button" onclick="register()">
+            <a href="#">or Cancel</a>
+        </div>
+    </section>
+</body>
+</html>
